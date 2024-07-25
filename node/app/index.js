@@ -9,6 +9,7 @@ const connection = mysql.createConnection({
   password: "root",
   database: "nodedb",
 });
+
 const namesToChoose = [
   "Antonio",
   "Raphael",
